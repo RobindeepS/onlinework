@@ -1,0 +1,75 @@
+<!Doctype>
+	<html>
+	<head>
+	<title>Bootstrap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+	<img src="\\file02.campus.loc\sf$\705574\Desktop\bootstrap\myimage.jpg" width= "200" height= "200">
+</br>
+	<div class="container">
+      <h2>Delete</h2>
+      <p>Trash icon as Glyphicons: <span class="glyphicon glyphicon-trash"></span></p>    
+      <p>Trash icon as a link:
+        <a href="#">
+          <span class="glyphicon glyphicon-trash"></span>
+        </a>
+      </p>
+      <p>Trash icon on a button:
+        <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-trash"></span> Trash 
+        </button>
+      </p>
+      <p>Trash icon on a styled link button:
+        <a href="#" class="btn btn-info btn-lg">
+          <span class="glyphicon glyphicon-trash"></span> Trash 
+        </a>
+      </p> 
+      <p>Unicode:
+        <span class="glyphicon">&#xe020;</span>
+      </p> 
+    </div>
+	</br>
+	<div class="jumbotron">
+  <h1 class="display-4">Hello class</h1>
+  <p class="lead">This is simple bootstap example by Karanjot.</p>
+  <hr class="my-4">
+  <p>Know more about its features by clicking down on the button.</p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+</br>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <button class="dropdown-item" type="button">Action</button>
+    <button class="dropdown-item" type="button">Another action</button>
+    <button class="dropdown-item" type="button">Something else here</button>
+  </div>
+</div>
+</br>
+<div class="alert alert-primary" role="alert">
+  Name-Karanjot Singh
+</div>
+<div class="alert alert-secondary" role="alert">
+  Student ID=C0705574
+</div>
+<div class="alert alert-success" role="alert">
+  I am Enrolled in Computer Programming CPCM Group 2
+</div>
+<div class="alert alert-danger" role="alert">
+I love to listen Music
+</div>
+<div class="alert alert-warning" role="alert">
+ I play guitar some times.
+</div>
+<div class="alert alert-info" role="alert">
+  Freelance photographer.
+</div>
+</br>
+</body>
+</html>
